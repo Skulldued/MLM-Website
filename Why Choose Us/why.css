@@ -1,0 +1,118 @@
+body{
+    background-image: linear-gradient(to left , #f4c2c2 , #ffff);
+}
+
+.logo-navbar {
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+.why-img-container{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width:0px) and (max-width:426px) {
+    .why-img-container{
+        height: 300px;
+        width: 300px;
+        background-image: url("https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+}
+
+
+@media (min-width:426px) and (max-width:768px) {
+    .why-img-container{
+        height: 300px;
+        width: 400px;
+        background-image: url("https://images.unsplash.com/photo-1484807352052-23338990c6c6?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+}
+
+
+
+.heading-text{
+    font-size: 70px;
+    transition: all ease-in-out;
+}
+
+.heading-text:hover{
+    animation: rotate 1s linear;
+    color: aqua;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@media (min-width:0px) and (max-width:426px){
+    .heading-text{
+        font-size: 15px;
+        padding: 10px;
+    }
+}
+
+@media (min-width:426px) and (max-width:768px){
+    .heading-text{
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+  }
+
+.div-para{
+    width: 600px;
+}
+
+.specification{
+    width: 800px;
+    background-image: linear-gradient(to left,#E0D2C7,#44B09E);
+    padding: 50px;
+}
+
+/* SOLUTION */
+.solution{
+    width: 600px;
+}
+
+/* COPYRIGHT*/
+.copyright {
+    background-image: linear-gradient(to right, #fff, #fee2e2);
+    margin-bottom: 0px;
+  }
+
+

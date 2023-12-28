@@ -1,0 +1,30 @@
+/* body{
+  background-image: linear-gradient(to left,#EFE9F4 ,#5078F2);
+} */
+
+.logo-navbar {
+  height: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.card-img {
+  height: 500px;
+}
+
+.demo-head:hover{
+  color: #861657;
+  text-decoration: underline;
+}
+
+.demo-card{
+  background-image: linear-gradient(to right , #FFA69E  ,#861657);
+}
+
+.demo-card:hover{
+  background-image: linear-gradient(to left ,#E0D2C7 ,#44B09E);
+}
+
+.demo-img{
+  height: 200px;
+}

@@ -1,0 +1,91 @@
+body {
+  /* background-color:  #FFB6C1; */
+  /* background-color: linear-gradient(to right ,  ,); */
+  /* background-image: linear-gradient(to right, #7EE8FA ,#EEC0C6); */
+}
+
+.logo-navbar {
+  height: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+/* MAIN */
+
+main > div > img {
+  height: 600px;
+  width: 100%;
+}
+
+.owner-image {
+  height: 400px;
+  width: 300px;
+  border-radius: 0 50% 50% 50%;
+  margin-left: 75px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* About Container */
+.about-container {
+  margin-top: 80px;
+  padding: 30px;
+  background-image: linear-gradient(to left, #e0d2c7, #44b09e);
+}
+
+/* quotes */
+.quotes-1 {
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.quotes-1:hover {
+  background-color: #bef264;
+  font-weight: 800;
+}
+
+.quotes-1-heading:hover {
+  color: red;
+}
+
+/* TECHNOLOGY SECTION */
+.technology > div > h1:hover {
+  color: red;
+  font-weight: 700;
+}
+
+.technology-para:hover {
+  color: blue;
+  font-weight: 500;
+}
+
+/* footer */
+.footer-box-1 {
+  width: 33%;
+}
+
+.footer-box-2 {
+  width: 33%;
+}
+
+.footer-box-3 {
+  width: 33%;
+}
+
+.mlm-plan-1:hover {
+  color: black;
+}
+
+.mlm-plan-container {
+  border-radius: 20px;
+}
+
+/* COPYRIGHT */
+.copyright {
+  background-image: linear-gradient(to right, #fff, #fee2e2);
+  margin-bottom: 0px;
+}

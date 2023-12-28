@@ -1,0 +1,80 @@
+.logo-navbar {
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+.main-div-img{
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+}
+
+
+h1::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  h1:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+
+
+
+@media (min-width:0px) and (max-width:426px) {
+    .main-div-img{
+        width: 100%;
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+@media (min-width:468px) and (max-width:780px) {
+    .web-dev-para{
+      margin-top: 30px;
+    }
+}
+
+/* MAIN SECTION */
+
+.main-section-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-section-img{
+    height: 300px;
+    width: 400px;
+}
+
+@media (min-width:0px) and (max-width:426px) {
+    .main-section-img{
+        height: 250px;
+        width: 250px;
+        margin-bottom: 50px;
+    }
+}
+
+/* DIGITAL BOX */
+
+@media (min-width:768px) {
+    .third-Box{
+        padding-top: 95px;
+    }
+}
+
+@media (min-width:0px) and(max-width:426px) {
+    .digital-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

@@ -1,0 +1,87 @@
+/* NAVBAR */
+
+/* body{
+  background-image: linear-gradient(to right,#A7ACD9,#9E8FB2);
+} */
+
+
+.logo-navbar {
+  height: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+ 
+  
+
+  /* CAROUSEL SECTION */
+
+  /* .carousel-inner{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  } */
+
+
+  .carousel-item > img {
+    width: 100vh;
+    height: 600px;
+    
+  }
+
+  @media (min-width:0px) and (max-width:426px) {
+    .carousel-item > img {
+        width: 100vh;
+        height: 300px;
+        
+      }
+  }
+
+
+  .Design-heading{
+    width: 500px;
+  }
+  .web-dev-para{
+    text-align: justify;
+  }
+
+  .main-section-div{
+    padding-left: 30px;
+    padding-right: 30px;
+   
+  }
+
+.main-section-img{
+    width: 500px;
+    height: 400px;
+   
+}
+
+@media (min-width:0px) and (max-width:426px) {
+    .main-section-img{
+        width: 300px;
+        height: 200px;
+       
+    }
+    .main-section-div{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 30px;
+      }
+    
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-img-top{
+  height: 300px;
+}
+
+.Design-heading-2{
+  width: 300px;
+}
+
